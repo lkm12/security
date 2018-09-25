@@ -2,7 +2,7 @@ spring:
   datasource:
     url: jdbc:mysql://172.16.100.65:3306/bonuspoint?useUnicode=true&characterEncoding=utf8&useSSL=false
     username: root
-    password: {cipher}8bbdff8cd313807c1d973df99066dcf2f5a281c2cf0adb57cbd6e76414c82358
+    password: "{cipher}8bbdff8cd313807c1d973df99066dcf2f5a281c2cf0adb57cbd6e76414c82358"
     hikari:
       # 连接只读数据库时配置为true， 保证安全
       read-only: false
